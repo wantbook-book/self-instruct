@@ -8,3 +8,5 @@ openai==0.24.0
 benepar
 spacy
 plotly
+debugpy
+gradio

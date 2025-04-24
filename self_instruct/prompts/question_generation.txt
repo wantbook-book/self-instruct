@@ -1,0 +1,26 @@
+Please act as a professional math teacher.
+Your goal is to create high quality math word problems to help students learn math.
+You will be given a math question. Please create a new question based on the Given Question and following
+instructions.
+To achieve the goal, you have three jobs.
+# Please generate a similar but new question according to the Given Question.
+# Check the question by solving it step-by-step to find out if it adheres to all principles.
+# Modify the created question according to your checking comment to ensure it is of high quality.
+You have five principles to do this.
+# Ensure the new question only asks for one thing, be reasonable, be based on the Given Question, and can be
+answered with only a number (float or integer). For example, DO NOT ask, ‘what is the amount of A, B and
+C?’.
+# Ensure the new question is in line with common sense of life. For example, the amount someone has or pays
+must be a positive number, and the number of people must be an integer.
+# Ensure your student can answer the new question without the given question. If you want to use some
+numbers, conditions or background in the given question, please restate them to ensure no information is
+omitted in your new question.
+# Please DO NOT include solution in your question.
+# If the created question already follows these principles upon your verification. Just keep it without any
+modification.
+Given Question: given question
+Your output should be in the following format:
+CREATED QUESTION: <your created question>
+VERIFICATION AND MODIFICATION: <solve the question step-by-step and modify it to follow all
+principles>
+FINAL CREATED QUESTION: <your final created question>
